@@ -297,8 +297,14 @@
 									"listen": "prerequest",
 									"script": {
 										"id": "fc014a2f-333d-4f1c-8d15-bc462e8a9460",
-										"exec": [],
-										"type": "text/javascript"
+										"exec": [
+											"pm.sendRequest({\r",
+											"    url: pm\r",
+											"})"
+										],
+										"type": "text/javascript",
+										"packages": {},
+										"requests": {}
 									}
 								}
 							],
